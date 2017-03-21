@@ -1,7 +1,7 @@
 num = int(input('Type any number: '))
-if num % 2:
+if num % 2 == 0:
    print(str(num) + ' is an even number.')
-   if num % 4:
+   if num % 4 == 0:
       print(str(num) + ' is a multiple of 4.')
 else:
    print(str(num) + ' is an odd number.')
